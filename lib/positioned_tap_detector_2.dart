@@ -197,6 +197,4 @@ class TapPosition {
     return global == typedOther.global && relative == other.relative;
   }
 
-  @override
-  int get hashCode => hashValues(global, relative);
 }
